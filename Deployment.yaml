@@ -7,4 +7,4 @@ spec:
    - name: helloworld-container01
      image: 
      ports:
-     - containerPort: 9000
+     - containerPort: 90
