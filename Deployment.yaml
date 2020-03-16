@@ -5,6 +5,6 @@ metadata:
 spec:
    containers:
    - name: helloworld-container01
-     image: nehashirsat/helloworld:4
+     image: nehashirsat/helloworld:5
      ports:
      - containerPort: 9000
