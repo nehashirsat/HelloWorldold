@@ -1,0 +1,12 @@
+2020-03-18 07:23:11,746 DEBUG    root            Loaded Command Group: [u'gcloud', u'container']
+2020-03-18 07:23:11,758 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters']
+2020-03-18 07:23:11,761 DEBUG    root            Loaded Command Group: [u'gcloud', u'container', u'clusters', u'get_credentials']
+2020-03-18 07:23:11,816 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "aakankshi-procurant", --zone: "us-central1-c", NAME: "k8s-cluster"]
+2020-03-18 07:23:11,817 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2020-03-18 07:23:11,901 DEBUG    root            unable to load default kubeconfig: unable to load kubeconfig for /home/nehaprocurant/.kube/config: Unable to read file [/home/nehaprocurant/.kube/config]: [Errno 2] No such file or directory: '/home/nehaprocurant/.kube/config'; recreating /home/nehaprocurant/.kube/config
+2020-03-18 07:23:11,909 DEBUG    root            Saved kubeconfig to /home/nehaprocurant/.kube/config
+2020-03-18 07:23:11,909 INFO     ___FILE_ONLY___ kubeconfig entry generated for k8s-cluster.
+
+2020-03-18 07:23:11,910 INFO     root            Display format: "default"
+2020-03-18 07:23:11,911 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,26 @@
+2020-03-18 07:23:51,205 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2020-03-18 07:23:51,209 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'config_helper']
+2020-03-18 07:23:51,211 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2020-03-18 07:23:51,221 INFO     root            Display format: "default json"
+2020-03-18 07:23:51,222 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "nehaprocurant@gmail.com",
+        "disable_usage_reporting": "True",
+        "project": "aakankshi-procurant"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0Adw1xeUhVT8EqNtxeNaa10DAki2Gshx1g8LGLZdwzDWaJSiQ7R4mj7Sm6uRZTFlRkCHPZSyHyMP4R-VXYdj_hEkoisjrPajVeUz7t21F6GLp-riWHmGz69dlnJCakCBU7P-I9Lovcq8l2yekyx0hK8IEwgxDXiE_UpEHpkW4eJI",
+    "token_expiry": "2020-03-18T08:22:31Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/nehaprocurant/.config/gcloud/config_sentinel"
+  }
+}
+2020-03-18 07:23:51,222 INFO     ___FILE_ONLY___ 
+
+2020-03-18 07:23:51,226 DEBUG    root            SDK update checks are disabled.
